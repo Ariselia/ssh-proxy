@@ -1,0 +1,34 @@
+OpenSSH has been configured with the following options:
+                     User binaries: /home/runtime/bin
+                   System binaries: /home/runtime/sbin
+               Configuration files: /home/runtime/etc
+                   Askpass program: /home/runtime/libexec/ssh-askpass
+                      Manual pages: /home/runtime/share/man/manX
+                          PID file: /var/run
+  Privilege separation chroot path: /var/empty
+            sshd default user PATH: /usr/bin:/bin:/usr/sbin:/sbin:/home/runtime/bin
+                    Manpage format: doc
+                       PAM support: no
+                   OSF SIA support: no
+                 KerberosV support: no
+                   SELinux support: no
+                 Smartcard support:
+                     S/KEY support: no
+              TCP Wrappers support: no
+              MD5 password support: no
+                   libedit support: no
+  Solaris process contract support: no
+           Solaris project support: no
+       IP address in $DISPLAY hack: no
+           Translate v4 in v6 hack: yes
+                  BSD Auth support: no
+              Random number source: OpenSSL internal ONLY
+             Privsep sandbox style: rlimit
+
+              Host: x86_64-unknown-linux-gnu
+          Compiler: gcc
+    Compiler flags: -g -O2 -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all -fPIE
+Preprocessor flags: -I/home/runtime/include
+      Linker flags: -L/home/runtime/lib  -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack -fstack-protector-all -pie
+         Libraries: -lcrypto -lrt -ldl -lutil -lz -lnsl  -lcrypt -lresolv
+
