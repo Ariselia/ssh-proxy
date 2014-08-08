@@ -1,3 +1,0 @@
-# global config
-SP_CFLAGS= -Wall -Wpointer-arith -Wuninitialized -Wsign-compare -Wformat-security -Wno-pointer-sign -fno-strict-aliasing -D_FORTIFY_SOURCE=2 -ftrapv -fno-builtin-memset -fstack-protector-all
-INCLUDES           = -I /home/runtime/include -I$(top_srcdir)/include
